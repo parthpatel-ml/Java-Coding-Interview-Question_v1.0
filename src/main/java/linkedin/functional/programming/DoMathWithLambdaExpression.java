@@ -6,8 +6,6 @@ import java.util.Map;
 import java.util.function.BiFunction;
 
 public class DoMathWithLambdaExpression {
-    HashMap<Integer,Integer> map = new HashMap<Integer, Integer>(10);
-    HashSet<Integer> set = new HashSet<>(10);
     public static final String ADD = "ADD";
     public static final String SUBTRACT = "SUBTRACT";
     public static final String MULTIPLY = "MULTIPLY";
