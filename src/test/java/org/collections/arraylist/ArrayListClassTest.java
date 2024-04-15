@@ -1,4 +1,4 @@
-package org.collections.arraypackage;
+package org.collections.arraylist;
 
 import org.junit.jupiter.api.Test;
 
