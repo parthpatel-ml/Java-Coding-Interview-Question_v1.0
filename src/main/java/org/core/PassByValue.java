@@ -29,6 +29,10 @@ public class PassByValue {
         System.out.println(intList);
         System.out.println(obj.integerValue);
         System.out.println(intStatic);
+
+        PassByValue obj2 = new PassByValue(12.12F, 21.21);
+        System.out.println(obj2.a);
+        System.out.println(obj2.b);
     }
 
     public void modifyList(List<Integer> input) {
