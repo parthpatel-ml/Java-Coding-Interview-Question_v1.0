@@ -29,7 +29,7 @@ public class ArrayListClassTest {
             System.out.println(i);
         }
 
-        BiFunction<Float,Float,Float> abc= (a,b)-> a+b;
-        System.out.println(abc.apply(10f,10f));
+        BiFunction<Float, Float, Float> abc = (a, b) -> a + b;
+        System.out.println(abc.apply(10f, 10f));
     }
 }
